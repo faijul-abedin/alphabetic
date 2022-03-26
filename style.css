@@ -1,0 +1,168 @@
+/*This content for universal selection*/
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 220, 220);
+}
+
+/*Style for headind, Main Head Tag*/
+.heading1{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    color: rgb(121, 16, 16);
+}
+
+/*Style for images, diplay in top*/
+.image{
+    margin: auto;
+    height: 120px;
+    width: 120px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/*Full interface style, including buttons and texts*/
+.interface{
+    position:relative;
+    margin: 0 auto;
+    max-width: 550px;
+    text-align: center;
+    margin-top: 5px;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.3);
+    font-size: 0;
+    border-radius: 30px;
+}
+
+/*Interface hover style*/
+.interface:hover{
+    box-shadow: 0 25px 25px 0 rgba(0,0,0,0.5);
+}
+
+/*This style for result section*/
+#resultText{
+    margin: auto;
+    height: 60px;
+    width: 370px;
+    text-align: center;
+    background-color: rgb(255, 195, 180);
+    font-size: 45px;
+    border-radius: 15px;
+    border: 3px solid rgb(185, 153, 153);
+    margin-bottom: 10px;   
+}
+
+/*This is for alphabet, including button*/
+.alphabet{
+    background-color: rgb(241, 248, 147);
+    height: 55px;
+    width: 92.5px;
+    font-weight: bold;
+    padding: 0;
+    border: 3px solid rgb(185, 153, 153);
+    border-radius: 15px;
+    font-size: 33px;
+    font-family: cursive;
+}
+
+/*Alphabet hover*/
+.alphabet:hover{
+    background-color: rgb(148, 201, 159);
+}
+
+/*This is play button for next version, now hidden*/
+.play{
+    background-color: rgb(173, 36, 36);
+    height: 55px;
+    width: 92.5px;
+    font-weight: bold;
+    padding: 0;
+    border: 3px solid rgb(182, 255, 148);
+    border-radius: 15px;
+    visibility: hidden;
+}
+
+/*Copyright section design, develpoer Faijul Abedin [fahad]*/
+.copyright{
+    text-align: center;
+}
+
+/*logo size*/
+.alpha{
+    font-size: 1rem;
+}
+
+/*Fotter design, the social media button*/
+.footer{
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/*Github button style*/
+.ig{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 50px;
+}
+.ig:hover{
+    background-color: rgb(148, 201, 159);
+}
+
+/*Instagram button style*/
+.ii{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 50px;
+}
+.ii:hover{
+    background-color: rgb(148, 201, 159);
+}
+
+/*Linkedin button style*/
+.il{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.il:hover{
+    background-color: rgb(148, 201, 159);
+}
+
+/*Social media link and buttons design*/
+.instagram{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 50px;
+}
+.github{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 50px;
+}
+.linkedin{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+/*The CSS programs end here*/
